@@ -8,6 +8,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    # ✨ Tüm komutlar bu klasörde çalışacak:
+    defaults:
+      run:
+        working-directory: monitoring/monitoring/ci-cd-demo/my-second-app
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
