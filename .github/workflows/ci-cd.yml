@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: monitoring/monitoring/ci-cd-demo/my-second-app
+        working-directory: my-second-app
 
     steps:
       - name: Checkout Repository
